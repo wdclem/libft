@@ -1,6 +1,6 @@
 # Libft
 
-HIVE helsinki school projecte inviting to recreate various standard C library functions, as well as extra other fucntion might be useful. Or not.
+HIVE helsinki school project inviting to recreate various standard C library functions, as well as extra other fucntion might be useful. Or not.
 
 #Compiling
 
