@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   memset.c                                           :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 20:54:35 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:06:21 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/27 12:15:17 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,13 +20,10 @@ void	*ft_memset(void *str, int c, size_t n)
 	size_t	index;
 
 	index = 0;
-	if (c != 0)
+	while (index < n)
 	{
-		while (index < n)
-		{
-			((unsigned char *) str)[index] = (unsigned char) c;
-			index ++;
-		}
+		((unsigned char *) str)[index] = (unsigned char) c;
+		index ++;
 	}
 	return (str);
 }
