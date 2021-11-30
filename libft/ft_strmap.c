@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 12:24:17 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:17:21 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/30 13:35:01 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_strmap(char const *s, char (*f)(char))
 	if (s == NULL)
 		return (NULL);
 	i = 0;
-	len = strlen(s);
+	len = ft_strlen(s);
 	str = (char *)malloc(sizeof(char) * (len + 1));
 	if (str == NULL)
 		return (NULL);

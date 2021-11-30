@@ -1,29 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_lstadd.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/07 14:29:38 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/30 13:34:43 by ccariou          ###   ########.fr       */
+/*   Created: 2021/11/30 11:34:33 by ccariou           #+#    #+#             */
+/*   Updated: 2021/11/30 13:54:31 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* Function search for the last occurence of c in str
- */
 
-char	*ft_strrchr(const char *str, int c)
+void	ft_lstadd(t_list **alst, t_list *new)
 {
-	int	index;
-
-	index = ft_strlen(str);
-	while (index >= 0)
+	if (alst && new)
 	{
-		if (str[index] == c)
-			return ((char *) str + index);
-		index --;
+		new->next = *alst;
+		*alst = new;
 	}
-	return (0);
 }

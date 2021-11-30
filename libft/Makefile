@@ -28,6 +28,7 @@ SRC = ft_putchar.c ft_putchar_fd.c ft_putstr_fd.c ft_putstr.c ft_strlen.c \
 	  ft_striter.c ft_striteri.c ft_strmap.c ft_strmapi.c \
 	  ft_strequ.c ft_strnequ.c ft_strsub.c ft_strjoin.c ft_strsplit.c \
 	  ft_strtrim.c ft_itoa.c \
+	  ft_lstadd.c ft_lstdelone.c ft_lstdel.c\
 	  ft_freearray.c ft_maketab.c ft_makearray.c \
 
 OBJ = $(SRC:%.c=%.o)

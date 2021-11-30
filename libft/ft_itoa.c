@@ -6,13 +6,13 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 16:36:40 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:03:44 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/29 12:18:48 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	intlen(int n)
+static int	intlen(int n)
 {
 	int	len;
 
@@ -25,7 +25,7 @@ int	intlen(int n)
 	return (len);
 }
 
-char	*printc(char *str, int len, int neg, int n)
+static char	*printc(char *str, int len, int neg, int n)
 {
 	str[len] = '\0';
 	while (len > 0)

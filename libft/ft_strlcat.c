@@ -6,14 +6,14 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 11:20:41 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/27 13:01:58 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/30 13:33:22 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 /* Function put a null terminated string source at the end of dest.
- * done at the strlen(dest) - 1 bytes, \0 terminating.
- * return length dest + src.
+ ** done at the strlen(dest) - 1 bytes, \0 terminating.
+ ** return length dest + src.
  */
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)

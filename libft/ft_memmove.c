@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 21:08:57 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:06:04 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/30 14:38:44 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	*ft_memmove(void *dst, const void *src, size_t length)
 			d[length] = s[length];
 		}
 	}
-	else if (src > dst)
+	else
 	{
 		while (length)
 		{

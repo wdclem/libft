@@ -6,18 +6,19 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 22:01:34 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/26 21:31:20 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/11/30 15:02:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
+
 static void	freearray(char **str, int len)
 {
-	while (len > 0)
+	while (len)
 	{
 		len --;
-		free(&str[len]);
+		free(str[len]);
+		str[len] = 0;
 	}
 	free(str);
 }

@@ -1,29 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/07 14:29:38 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/30 13:34:43 by ccariou          ###   ########.fr       */
+/*   Created: 2021/11/30 15:27:44 by ccariou           #+#    #+#             */
+/*   Updated: 2021/11/30 16:52:23 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* Function search for the last occurence of c in str
- */
 
-char	*ft_strrchr(const char *str, int c)
+void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t))
 {
-	int	index;
-
-	index = ft_strlen(str);
-	while (index >= 0)
+	if (*alst)
 	{
-		if (str[index] == c)
-			return ((char *) str + index);
-		index --;
+		del((*alst)->content, (*alst)->content_size);
+		free(*alst);
+		*alst = NULL;
 	}
-	return (0);
 }
