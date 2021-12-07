@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 20:54:35 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/27 12:15:17 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:38:29 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,15 @@
  * pointd to by argument str.
 */
 
-void	*ft_memset(void *str, int c, size_t n)
+void	*ft_memset(void *b, int c, size_t n)
 {
 	size_t	index;
 
 	index = 0;
 	while (index < n)
 	{
-		((unsigned char *) str)[index] = (unsigned char) c;
+		((unsigned char *) b)[index] = (unsigned char) c;
 		index ++;
 	}
-	return (str);
+	return (b);
 }

@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 11:02:16 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:17:45 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:36:43 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 /* Function put the pointer to string source after dest up to n char long.
  */
 
-char	*ft_strncat(char *dest, const char *src, size_t n)
+char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 	size_t	len;
 	char	*tmp;
 
-	tmp = dest;
+	tmp = s1;
 	i = 0;
-	len = ft_strlen(dest);
-	while (i < n && src[i] != '\0')
+	len = ft_strlen(s1);
+	while (i < n && s2[i] != '\0')
 	{
-		dest[i + len] = src[i];
+		s1[i + len] = s2[i];
 		i ++;
 	}
-	dest[i + len] = '\0';
+	s1[i + len] = '\0';
 	return (tmp);
 }

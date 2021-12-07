@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 10:22:36 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:10:54 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 19:59:16 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,16 @@
 /* Function find the first occurence of a character in a buffer
  */
 
-void	*ft_memchr(void *buf, int ch, size_t length)
+void	*ft_memchr(const void *s, int c, size_t n)
 {
 	size_t			index;
 	unsigned char	*src;
 
 	index = 0;
-	src = (unsigned char *) buf;
-	while (index < length)
+	src = (unsigned char *) s;
+	while (index < n)
 	{
-		if (src[index] == (unsigned char) ch)
+		if (src[index] == (unsigned char) c)
 			return (src + index);
 		index ++;
 	}

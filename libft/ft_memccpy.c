@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 18:41:30 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/18 12:50:00 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:18:19 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,20 +16,20 @@
  * or after n bytes have been copied, whichever comes first.
 */
 
-void	*ft_memccpy(void *s1, const void *s2, int c, size_t n)
+void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
 	size_t			index;
-	unsigned char	*dst;
-	unsigned char	*src;
+	unsigned char	*dest;
+	unsigned char	*s;
 
-	dst = (unsigned char *) s1;
-	src = (unsigned char *) s2;
+	dest = (unsigned char *) dst;
+	s = (unsigned char *) src;
 	index = 0;
 	while (index < n)
 	{
-		dst[index] = src[index];
-		if (src[index] == (unsigned char) c)
-			return ((void *)(dst + index + 1));
+		dest[index] = s[index];
+		if (s[index] == (unsigned char) c)
+			return ((void *)(dest + index + 1));
 		index ++;
 	}
 	return (NULL);

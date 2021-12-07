@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 11:27:41 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:18:01 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:10:40 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 /* Fucntion compare two strings for size n length
  */
 
-int	ft_strncmp(const char *str1, const char *str2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
 	i = 0;
-	while ((str1[i] || str2[i]) && i < n)
+	while ((s1[i] || s2[i]) && i < n)
 	{
-		if (str1[i] != str2[i])
-			return (((unsigned char *) str1)[i] - ((unsigned char *)str2)[i]);
+		if (s1[i] != s2[i])
+			return (((unsigned char *) s1)[i] - ((unsigned char *)s2)[i]);
 		i ++;
 	}
 	return (0);

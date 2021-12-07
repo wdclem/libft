@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
+/*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/06 21:00:00 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:30:18 by ccariou          ###   ########.fr       */
+/*   Created: 2021/12/05 20:54:10 by ccariou           #+#    #+#             */
+/*   Updated: 2021/12/06 10:59:44 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* Function copies the string pointed from source to destination.
-*/
 
-char	*ft_strcpy(char *dst, const char *src)
+t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {
-	int	index;
+	t_list	*new;
 
-	index = 0;
-	while (src[index] != '\0')
+	if (!f || !lst)
+		return (NULL);
+	if (lst)
 	{
-		dst[index] = src[index];
-		index ++;
+		new = f(lst);
+		new->next = ft_lstmap(lst->next, f);
+		return (new);
 	}
-	dst[index] = '\0';
-	return (dst);
+	return (NULL);
 }

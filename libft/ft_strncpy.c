@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 21:14:11 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:18:11 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:31:43 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 /* Function copies source to destination up to n char.
 */
 
-char	*ft_strncpy(char *dest, const char *src, unsigned int n)
+char	*ft_strncpy(char *dst, const char *src, size_t len)
 {
-	unsigned int	index;
+	size_t	index;
 
 	index = 0;
-	while (src[index] != '\0' && index < n)
+	while (src[index] != '\0' && index < len)
 	{
-		dest[index] = src[index];
+		dst[index] = src[index];
 		index ++;
 	}
-	while (index < n)
+	while (index < len)
 	{
-		dest[index] = '\0';
+		dst[index] = '\0';
 		index ++;
 	}
-	return (dest);
+	return (dst);
 }

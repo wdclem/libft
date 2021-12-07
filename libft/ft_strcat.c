@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 10:41:20 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:08:05 by ccariou          ###   ########.fr       */
+/*   Updated: 2021/12/05 20:35:24 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,21 @@
 /* Function put the string source after string dest.
 */
 
-char	*ft_strcat(char *dest, const char *src)
+char	*ft_strcat(char *s1, const char *s2)
 {
 	int		idest;
 	int		isrc;
 
 	idest = 0;
 	isrc = 0;
-	while (dest[idest])
+	while (s1[idest])
 		idest ++;
-	while (src[isrc])
+	while (s2[isrc])
 	{
-		dest[idest] = src[isrc];
+		s1[idest] = s2[isrc];
 		idest ++;
 		isrc ++;
 	}
-	dest[idest] = '\0';
-	return (dest);
+	s1[idest] = '\0';
+	return (s1);
 }
