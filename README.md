@@ -31,6 +31,12 @@ ft_striter  ft_strtrim  ft_putstr_fd
 ft_striteri ft_strsplit ft_putendl_fd
 ft_strmap   ft_itoa     ft_putnbr_fd
 ```
+## PART 2 ADDITIONAL
+```
+ft_lstadd   ft_lstdel   ft_lsdelone
+ft_lstiter  ft_lstnew
+```
+
 ## EXTRA attempt to create something usefull
 ```
 ft_makearray
