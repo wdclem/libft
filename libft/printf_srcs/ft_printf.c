@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/22 10:21:35 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:51:49 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/08 12:21:46 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,14 +31,16 @@ static void	initialize_type(t_conv **type)
 	type[10] = &type_percent;
 }
 
-static void	minus_flag(t_info *info, char *temp, int len)
+static int	minus_flag(t_info *info, char *temp, int len)
 {
 	if (ft_strchr(info->flag, '-'))
 	{
 		temp[len - info->modlen] = '\0';
 		info->minus_mod = temp;
-		return ;
+		return (0);
 	}
+	else
+		return (1);
 }
 
 void	size_mod(t_info *info)
@@ -55,7 +57,8 @@ void	size_mod(t_info *info)
 	if (temp == NULL)
 		return ;
 	ft_memset(temp, ' ', len);
-	minus_flag(info, temp, len);
+	if (!minus_flag(info, temp, len))
+		return ;
 	if ((info->precision < 0 || !ft_strchr("diouxX", info->type))
 		&& ft_strchr(info->flag, '0'))
 		ft_memset(temp, '0', len);

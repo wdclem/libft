@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/22 14:53:11 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:59:23 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/08 11:55:50 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ static void	join(t_info *info, char *str)
 		return ;
 	ft_strdel(&info->copy);
 	info->copy = ft_strjoin(temp, str);
-	if (temp == NULL)
+	if (info ->copy == NULL)
 		return ;
 	ft_strdel(&str);
 	ft_strdel(&temp);

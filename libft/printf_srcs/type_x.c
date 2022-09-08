@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 11:01:30 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:38:08 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/08 12:20:34 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,11 @@ static void	hash_flag(t_info *info, int len)
 	temp = NULL;
 	copy = NULL;
 	if (info->mod[0])
+	{
 		temp = ft_strjoin(info->mod, temp);
-	if (temp == NULL)
-		return ;
+		if (temp == NULL)
+			return ;
+	}
 	ft_strdel(&(info->mod));
 	copy = ft_strjoin("0x", copy);
 	if (copy == NULL)
