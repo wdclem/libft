@@ -42,6 +42,8 @@ ft_lstiter  ft_lstnew
 ft_makearray
 ft_maketab
 ft_freearray
+get_next_line
+ft_printf
 ```
 
 ## Test
