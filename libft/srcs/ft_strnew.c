@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 14:33:15 by ccariou           #+#    #+#             */
-/*   Updated: 2022/08/31 14:24:03 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:12 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function allocate and return a new string initialized at \0
  */
 

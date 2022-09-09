@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 12:03:24 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/26 15:01:15 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:01 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function compare bytes between s1 and s2
  */
 

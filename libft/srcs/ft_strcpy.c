@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 21:00:00 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:30:18 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function copies the string pointed from source to destination.
 */
 

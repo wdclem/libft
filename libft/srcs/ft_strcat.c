@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 10:41:20 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:35:24 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:09 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function put the string source after string dest.
 */
 

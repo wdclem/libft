@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 09:51:31 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/03 09:56:56 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:59 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {

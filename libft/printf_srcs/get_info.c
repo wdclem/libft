@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/22 13:13:44 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:46:50 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:15 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/../includes/ft_printf.h"
 
 void	set_struc(t_info *info)
 {

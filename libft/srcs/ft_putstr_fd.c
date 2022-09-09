@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:50:23 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/26 19:54:30 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:09 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_putstr_fd(char const *s, int fd)
 {

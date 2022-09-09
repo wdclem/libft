@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 11:20:41 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:34:04 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:11 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function put a null terminated string source at the end of dest.
  ** done at the strlen(dest) - 1 bytes, \0 terminating.
  ** return length dest + src.

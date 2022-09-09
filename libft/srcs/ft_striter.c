@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 15:28:06 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:16:01 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:11 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* applies function f to each char of the string
  */
 

@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 18:30:48 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/20 16:43:01 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:00 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	*ft_memalloc(size_t size)
 {

@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 11:02:16 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:36:43 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:11 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function put the pointer to string source after dest up to n char long.
  */
 

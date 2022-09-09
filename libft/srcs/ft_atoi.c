@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 21:43:39 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:08:51 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:48 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* alpha to integer, tranform char *str to a int
  */
 

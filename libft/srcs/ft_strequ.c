@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 14:20:21 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:15:40 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Lexicographical comparison between s1 and s2, 
  * if the strings are identical returnm 0 otherwise
  */

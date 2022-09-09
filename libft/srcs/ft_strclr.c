@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 15:23:43 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:08:39 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* sets every char of a string to the value \0
  */
 

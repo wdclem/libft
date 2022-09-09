@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/24 10:22:28 by ccariou           #+#    #+#             */
-/*   Updated: 2022/05/24 10:32:05 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:54 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int	ft_isspace(char c)
 {

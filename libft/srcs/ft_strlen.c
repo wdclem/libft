@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 20:02:23 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/29 11:47:30 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:11 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function count the length of the string str, excluding null char>
 */
 

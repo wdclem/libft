@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 15:59:43 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:16:15 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:11 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Applies f to each char of the string passed, 
  * and pass its index as first argument)
  */

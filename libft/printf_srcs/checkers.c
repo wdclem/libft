@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 10:42:00 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/07 14:12:02 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:13 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h" 
+#include "../includes/../includes/ft_printf.h" 
 
 int	check_flag(const char **ptr, t_info *info)
 {

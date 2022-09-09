@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 17:51:28 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:17:10 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:01 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Fucntion copies n char form memory area source to memory area dest
 */
 

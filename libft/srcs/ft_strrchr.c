@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 14:29:38 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/06 11:05:56 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:12 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function search for the last occurence of c in str
  */
 

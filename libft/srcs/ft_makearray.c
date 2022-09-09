@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 11:55:16 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/26 19:27:56 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:00 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 char	*ft_makearray(int len)
 {

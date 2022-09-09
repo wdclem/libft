@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/04 14:36:22 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:30:20 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:13 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 static int	ft_dup_result(int fd, char **line, char **result)
 {

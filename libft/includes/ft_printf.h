@@ -6,7 +6,7 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 13:14:57 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 12:11:14 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:53:45 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include "../libft/includes/libft.h"
+# include "libft.h"
 
 /* struct to hold all modifiers %[flags][width][.precision][size]type */
 typedef struct s_info{

@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 09:38:19 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/22 12:41:32 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:52 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function to free array/2d array
  */
 

@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 11:03:17 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:00:54 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:16 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/../includes/ft_printf.h"
 
 static long long	change_size(t_info *info, long long i)
 {

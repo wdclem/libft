@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/15 15:18:40 by ccariou           #+#    #+#             */
-/*   Updated: 2022/08/29 15:02:20 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* take the address oof a string that need to be freed,
  *  free it and sets its pointer to NULL */
 

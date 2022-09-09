@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 13:15:46 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:20:46 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:12 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* convert a char to lowercase
  */
 

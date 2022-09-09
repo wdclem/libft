@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/22 16:06:07 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/07 14:15:35 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:18 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/../includes/ft_printf.h"
 
 static void	capital(char *str)
 {

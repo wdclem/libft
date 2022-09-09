@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 18:41:30 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:18:19 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:00 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function copies bytes from memory area source into destination
  * stopping after the first occurence of c has been copied
  * or after n bytes have been copied, whichever comes first.

@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 10:22:36 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 19:59:16 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:01 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function find the first occurence of a character in a buffer
  */
 

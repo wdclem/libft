@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/10 12:26:37 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:12:00 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:10 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function compare two strings
  */
 

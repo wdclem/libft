@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 12:11:12 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:09:53 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:54 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Test if a char is digit
  */
 

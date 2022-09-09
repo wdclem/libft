@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 21:08:57 by ccariou           #+#    #+#             */
-/*   Updated: 2021/12/05 20:53:22 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:01 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function copy bytes from a buffer to the other handling overlapping correctly
  */
 

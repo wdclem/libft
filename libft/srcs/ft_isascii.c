@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.hive.fi>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/11 13:02:57 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:09:42 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:53 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Test if a char is ascii value
  */
 

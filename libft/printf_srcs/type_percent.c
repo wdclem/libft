@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 11:04:06 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:26:16 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:17 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/../includes/ft_printf.h"
 
 int	type_percent(t_info *info)
 {

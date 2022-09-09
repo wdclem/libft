@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 11:00:24 by ccariou           #+#    #+#             */
-/*   Updated: 2022/09/08 10:58:42 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:56:17 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "../includes/../includes/ft_printf.h"
 
 static void	more_edge(t_info *info, char *str)
 {

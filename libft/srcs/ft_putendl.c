@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:27:49 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 19:05:55 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:09 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 void	ft_putendl(char const *s)
 {

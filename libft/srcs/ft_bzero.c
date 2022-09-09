@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 15:41:30 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/23 20:09:02 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:51:51 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 /* Function places n byte null bytes in the string s
  * use to set all socket with null values>
 */

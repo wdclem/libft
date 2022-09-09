@@ -6,11 +6,11 @@
 /*   By: ccariou <ccariou@hive.fi>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 13:32:45 by ccariou           #+#    #+#             */
-/*   Updated: 2021/11/06 15:58:03 by ccariou          ###   ########.fr       */
+/*   Updated: 2022/09/09 11:52:02 by ccariou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/../includes/libft.h"
 
 void	ft_putchar(char c)
 {
